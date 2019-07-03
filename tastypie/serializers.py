@@ -35,7 +35,7 @@ except ImportError:
     biplist = None
 
 
-XML_ENCODING = re.compile('<\?xml.*?\?>', re.IGNORECASE)
+XML_ENCODING = re.compile(r'<\?xml.*?\?>', re.IGNORECASE)
 
 
 # Ugh & blah.
