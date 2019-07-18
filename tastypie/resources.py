@@ -15,7 +15,7 @@ from django.conf.urls import url
 from django.core.exceptions import (
     ObjectDoesNotExist, MultipleObjectsReturned, ValidationError,
 )
-from django.core.urlresolvers import (
+from django.urls import (
     NoReverseMatch, reverse, Resolver404, get_script_prefix
 )
 from django.core.signals import got_request_exception
