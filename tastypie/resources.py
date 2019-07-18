@@ -1838,7 +1838,7 @@ class BaseModelResource(Resource):
         contributed ApiFields.
         """
         # Ignore certain fields (related fields).
-        if getattr(field, 'rel'):
+        if getattr(field, 'remote_field'):
             return True
 
         return False
